@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.cartrade.cameraexample.videotimestamp.glutilsOld.CameraGLView
+        android:id="@+id/cameraPreview_surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/layProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#00000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:max="60"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressbar"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top|center"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5sp"
+            android:text="00:00:00"
+            android:textColor="@color/txt_red"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressbar"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5sp"
+            android:text="Bonnet open (focus on chassis number)"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_timer"
+            android:background="#fff"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/toggleRecording_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:fontFamily="@font/roboto_bold"
+        android:onClick="clickToggleRecording"
+        android:text="START"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/button_splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:src="@mipmap/flash_off"
+            android:visibility="visible"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/person_symbolic_grey"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layTimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="Entering photo mode. "
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/timeRemains"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#77000000"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/helpHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="Recording will be of max 60 Sec."
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="left"
+            android:text="Open bonnet before starting and follow mentioned sequence.\n\nFirst 15 seconds for chassis number &amp; closing bonnet\nNext 30 seconds for car exterior (anti clockwise)\nLast 15 seconds for car interior &amp; odometer\n"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</FrameLayout>

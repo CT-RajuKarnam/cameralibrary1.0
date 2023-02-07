@@ -1,0 +1,2665 @@
+{
+  "screen_3": {
+    "name": "Images",
+    "id": 3,
+    "values": [
+      {
+        "block_type": "video_group",
+        "name": "Vehicle Video",
+        "id": 783,
+        "display_order": 1,
+        "images": [
+          {
+            "name": "VEHICLE VIDEO",
+            "id": 101134,
+            "field_value": "",
+            "icon_id": 209,
+            "element_type": "video",
+            "validation_rules": {
+              "mandatory": 0
+            },
+            "timeline_min": 40,
+            "timeline_max": 80
+          }
+        ]
+      },
+      {
+        "block_type": "image_group",
+        "groups": [
+          {
+            "block_type": "image_group",
+            "name": "Special Images",
+            "id": 784,
+            "timeline_max": 80,
+            "display_order": 2,
+            "images": [
+              {
+                "name": "SELFIE WITH VEHICLE REG.",
+                "id": 101137,
+                "field_value": "",
+                "icon_id": 1107,
+                "element_type": "selfie",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "CHASSIS NO. IMAGE",
+                "id": 101169,
+                "field_value": "",
+                "icon_id": 276,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "FORMAT WITH CHASSIS IMPRESSION",
+                "id": 101170,
+                "field_value": "",
+                "icon_id": 206,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              }
+            ]
+          },
+          {
+            "block_type": "image_group",
+            "name": "Vehicle Images",
+            "id": 785,
+            "timeline_max": 900,
+            "display_order": 3,
+            "images": [
+              {
+                "name": "FRONT IMAGE",
+                "id": 101138,
+                "field_value": "",
+                "icon_id": 1099,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "FRONT UNDER CARRIAGE",
+                "id": 101139,
+                "field_value": "",
+                "icon_id": 106,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "LEFT FRONT CORNER",
+                "id": 101140,
+                "field_value": "",
+                "icon_id": 1101,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "LEFT IMAGE",
+                "id": 101141,
+                "field_value": "",
+                "icon_id": 1100,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "LEFT REAR CORNER",
+                "id": 101142,
+                "field_value": "",
+                "icon_id": 282,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "REAR IMAGE",
+                "id": 101143,
+                "field_value": "",
+                "icon_id": 1103,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "REAR UNDER CARRIAGE",
+                "id": 101144,
+                "field_value": "",
+                "icon_id": 107,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "RIGHT REAR CORNER",
+                "id": 101145,
+                "field_value": "",
+                "icon_id": 283,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "RIGHT IMAGE",
+                "id": 101146,
+                "field_value": "",
+                "icon_id": 1106,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "RIGHT FRONT CORNER",
+                "id": 101147,
+                "field_value": "",
+                "icon_id": 1104,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "W/S GLASS OUTSIDE",
+                "id": 101148,
+                "field_value": "",
+                "icon_id": 950,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "W/S GLASS MAKE/MODEL",
+                "id": 101149,
+                "field_value": "",
+                "icon_id": 950,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "W/S GLASS INSIDE FULL",
+                "id": 101151,
+                "field_value": "",
+                "icon_id": 951,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "W/S GLASS INSIDE RIGHT",
+                "id": 101152,
+                "field_value": "",
+                "icon_id": 951,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "W/S GLASS INSIDE LEFT",
+                "id": 101153,
+                "field_value": "",
+                "icon_id": 951,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "DASHBOARD",
+                "id": 101154,
+                "field_value": "",
+                "icon_id": 951,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "ODOMETER",
+                "id": 101155,
+                "field_value": "",
+                "icon_id": 201,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "CHASSIS NO.",
+                "id": 101156,
+                "field_value": "",
+                "icon_id": 276,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "VIN PLATE",
+                "id": 101157,
+                "field_value": "",
+                "icon_id": 814,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "OPEN BONNET",
+                "id": 101162,
+                "field_value": "",
+                "icon_id": 1103,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 1
+                }
+              },
+              {
+                "name": "ANY HYDRAULIC PART",
+                "id": 101164,
+                "field_value": "",
+                "icon_id": 200,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "CNG/LPG CYLINDER NO.",
+                "id": 101165,
+                "field_value": "",
+                "icon_id": 279,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "TYRE IMAGE",
+                "id": 101167,
+                "field_value": "",
+                "icon_id": 203,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "TYRE IMAGE",
+                "id": 101168,
+                "field_value": "",
+                "icon_id": 203,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "TYRE IMAGE",
+                "id": 101173,
+                "field_value": "",
+                "icon_id": 203,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "TYRE IMAGE",
+                "id": 101174,
+                "field_value": "",
+                "icon_id": 203,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "TYRE IMAGE",
+                "id": 101175,
+                "field_value": "",
+                "icon_id": 203,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "EXTRA IMAGES",
+                "id": 101179,
+                "field_value": "",
+                "icon_id": 1099,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "EXTRA IMAGES",
+                "id": 101180,
+                "field_value": "",
+                "icon_id": 1099,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "EXTRA IMAGES",
+                "id": 101181,
+                "field_value": "",
+                "icon_id": 1099,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              },
+              {
+                "name": "EXTRA IMAGES",
+                "id": 101182,
+                "field_value": "",
+                "icon_id": 1099,
+                "element_type": "image",
+                "validation_rules": {
+                  "mandatory": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "block_type": "signature_docs_group",
+        "name": "Signature & Documents",
+        "id": 786,
+        "display_order": 4,
+        "images": [
+          {
+            "name": "SIGNATURE",
+            "id": 101158,
+            "field_value": "",
+            "icon_id": 207,
+            "element_type": "signature",
+            "validation_rules": {
+              "mandatory": 1
+            }
+          },
+          {
+            "name": "RC FRONT",
+            "id": 101159,
+            "field_value": "",
+            "icon_id": 206,
+            "element_type": "image",
+            "validation_rules": {
+              "mandatory": 1
+            }
+          },
+          {
+            "name": "RC BACK",
+            "id": 101160,
+            "field_value": "",
+            "icon_id": 206,
+            "element_type": "image",
+            "validation_rules": {
+              "mandatory": 1
+            }
+          },
+          {
+            "name": "OTHER DOCUMENT",
+            "id": 101161,
+            "field_value": "",
+            "icon_id": 206,
+            "element_type": "image",
+            "validation_rules": {
+              "mandatory": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "screen_4": {
+    "name": "Features Block",
+    "id": 4,
+    "values": [
+      {
+        "block_type": "features_group",
+        "name": "Engine",
+        "id": 792,
+        "tyres_group": 0,
+        "display_order": 22,
+        "features": [
+          {
+            "name": "Engine Condition",
+            "id": 3823,
+            "field_value": "Satisfactory,Good,Average,Poor,Missing,Dismantled,Breakdown",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000",
+              "Missing": "#ff0000",
+              "Dismantled": "#ff0000",
+              "Breakdown": "#ff0000"
+            }
+          },
+          {
+            "name": "Cooling System",
+            "id": 3824,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Turbo Charger",
+            "id": 3825,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Fluid Leaks",
+            "id": 3826,
+            "field_value": "No Leaks,Leaky",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "No Leaks": "#000000",
+              "Leaky": "#ff0000"
+            }
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Transmission",
+        "id": 787,
+        "tyres_group": 0,
+        "display_order": 24,
+        "features": [
+          {
+            "name": "Transmission Type",
+            "id": 3827,
+            "field_value": "Manual,Automatic",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Manual": "#000000",
+              "Automatic": "#000000"
+            }
+          },
+          {
+            "name": "Transmission Condition",
+            "id": 3828,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Suspension",
+        "id": 788,
+        "tyres_group": 0,
+        "display_order": 26,
+        "features": [
+          {
+            "name": "Suspension Type",
+            "id": 3829,
+            "field_value": "Spring Suspension,Air Suspension",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Spring Suspension": "#000000",
+              "Air Suspension": "#000000"
+            }
+          },
+          {
+            "name": "Front Suspension",
+            "id": 3830,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Rear Suspension",
+            "id": 3831,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Brakes",
+        "id": 789,
+        "tyres_group": 0,
+        "display_order": 28,
+        "features": [
+          {
+            "name": "Front Brake Condition",
+            "id": 3833,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Rear Brake Condition",
+            "id": 3835,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Hand Brake Condition",
+            "id": 3836,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Retarder",
+            "id": 3837,
+            "field_value": "No,Yes",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "No": "#ff0000",
+              "Yes": "#000000"
+            }
+          },
+          {
+            "name": "Anti-lock Braking System (ABS)",
+            "id": 3838,
+            "field_value": "No,Yes",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "No": "#ff0000",
+              "Yes": "#000000"
+            }
+          },
+          {
+            "name": "Speed Control System",
+            "id": 3839,
+            "field_value": "No,Yes",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3907,
+            "value_colors": {
+              "No": "#ff0000",
+              "Yes": "#000000"
+            }
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Wheels / Tyres",
+        "id": 790,
+        "tyres_group": 0,
+        "display_order": 30,
+        "features": [
+          {
+            "name": "Wheel Type",
+            "id": 3840,
+            "field_value": "Rim,Alloy",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Rim": "#000000",
+              "Alloy": "#000000"
+            }
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Tyres Condition",
+        "id": 803,
+        "tyres_group": 1,
+        "display_order": 31,
+        "features": [
+          {
+            "name": "Tyres With Make New",
+            "id": 7731,
+            "field_value": "",
+            "element_type": "tyres_with_make_new",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "tyres_with_make_new"
+            },
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Electricals",
+        "id": 791,
+        "tyres_group": 0,
+        "display_order": 32,
+        "features": [
+          {
+            "name": "Number Of Batteries",
+            "id": 3844,
+            "field_value": "",
+            "element_type": "numeric",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "numeric",
+              "min_value": 0,
+              "max_value": 19
+            },
+            "value_colors": ""
+          },
+          {
+            "name": "Battery Condition",
+            "id": 3845,
+            "field_value": "Missing,Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Cluster Unit",
+            "id": 3846,
+            "field_value": "Average,Missing,Satisfactory,Poor,Good",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Average": "#ff0000",
+              "Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Poor": "#ff0000",
+              "Good": "#000000"
+            }
+          },
+          {
+            "name": "Head Lamp",
+            "id": 3847,
+            "field_value": "Both Side Missing,One Side Missing,Satisfactory,Average,Poor,Good,Both Side Damaged,One Side Damaged",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Both Side Missing": "#f76d02",
+              "One Side Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000",
+              "Good": "#000000",
+              "Both Side Damaged": "#ff0000",
+              "One Side Damaged": "#ff0000"
+            }
+          },
+          {
+            "name": "Tail Lamp",
+            "id": 3848,
+            "field_value": "Both Side Missing,One Side Missing,Satisfactory,Average,Poor,Good,Both Side Damaged,One Side Damaged",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Both Side Missing": "#ff0000",
+              "One Side Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000",
+              "Good": "#000000",
+              "Both Side Damaged": "#ff0000",
+              "One Side Damaged": "#ff0000"
+            }
+          },
+          {
+            "name": "Front  Indicators",
+            "id": 3849,
+            "field_value": "Both Side Missing,One Side Missing,Satisfactory,Good,Average,Poor,Both Side Damaged,One Side Damaged",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Both Side Missing": "#ff0000",
+              "One Side Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000",
+              "Both Side Damaged": "#ff0000",
+              "One Side Damaged": "#ff0000"
+            }
+          },
+          {
+            "name": "Rear Indicators",
+            "id": 3850,
+            "field_value": "Both Side Missing,One Side Missing,Satisfactory,Good,Average,Poor,Both Side Damaged,One Side Damaged",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Both Side Missing": "#ff0000",
+              "One Side Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000",
+              "Both Side Damaged": "#ff0000",
+              "One Side Damaged": "#ff0000"
+            }
+          },
+          {
+            "name": "Fog Lamps",
+            "id": 3851,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "child_ids": [
+              3852
+            ],
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Fog Lamps Condition",
+            "id": 3852,
+            "field_value": "Both Side Missing,One Side Missing,Satisfactory,Good,Average,Poor,Both Side Damaged,One Side Damaged",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3851,
+            "value_colors": {
+              "Both Side Missing": "#ff0000",
+              "One Side Missing": "#ff0000",
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000",
+              "Both Side Damaged": "#ff0000",
+              "One Side Damaged": "#ff0000"
+            }
+          },
+          {
+            "name": "Wiper",
+            "id": 3853,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Others (If Any)",
+            "id": 3854,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Cabin And Interior",
+        "id": 798,
+        "tyres_group": 0,
+        "display_order": 34,
+        "features": [
+          {
+            "name": "Wind Screen (W/S)",
+            "id": 3855,
+            "field_value": "Satisfactory,Good,Poor,Missing,Cracked",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Poor": "#ff0000",
+              "Missing": "#ff0000",
+              "Cracked": "#ff0000"
+            }
+          },
+          {
+            "name": "Side Glasses",
+            "id": 3856,
+            "field_value": "Satisfactory,Good,Poor,Missing,Cracked",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Poor": "#ff0000",
+              "Missing": "#ff0000",
+              "Cracked": "#ff0000"
+            }
+          },
+          {
+            "name": "Doors",
+            "id": 3859,
+            "field_value": "Fully Available,Partially Available,Not Available",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Fully Available": "#000000",
+              "Partially Available": "#ff0000",
+              "Not Available": "#ff0000"
+            }
+          },
+          {
+            "name": "Air Conditioner",
+            "id": 3857,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "child_ids": [
+              3858
+            ],
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Air Conditioner Condition",
+            "id": 3858,
+            "field_value": "Not In Order,Satisfactory,Good,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3857,
+            "value_colors": {
+              "Not In Order": "#ff0000",
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Poor": "#ff0000"
+            }
+          },
+          {
+            "name": "Others (If Any)",
+            "id": 3860,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Accessories (if any)",
+        "id": 799,
+        "tyres_group": 0,
+        "display_order": 36,
+        "features": [
+          {
+            "name": "Front Crash Guard",
+            "id": 3861,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Load Carrier",
+            "id": 3862,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Music System",
+            "id": 3863,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Television & Video Player",
+            "id": 3864,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Rear Under Run Protection Device (RPAD)",
+            "id": 3865,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Side Under Run Protection Device (SPAD)",
+            "id": 3866,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Others (If Any)",
+            "id": 3867,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Body",
+        "id": 800,
+        "tyres_group": 0,
+        "display_order": 38,
+        "features": [
+          {
+            "name": "Body Type Of Haulage",
+            "id": 3869,
+            "field_value": "Cabin & Chassis,Fully Built (OE)",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3868,
+            "child_ids": [
+              3870,
+              3871
+            ],
+            "value_colors": {
+              "Cabin & Chassis": "#000000",
+              "Fully Built (OE)": "#000000"
+            }
+          },
+          {
+            "name": "Cabin & Chassis",
+            "id": 3870,
+            "field_value": "Wooden,Steel",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3869,
+            "value_colors": ""
+          },
+          {
+            "name": "Body Builder Name",
+            "id": 3871,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3869,
+            "value_colors": ""
+          },
+          {
+            "name": "Coach Type Of Passenger (Bus)",
+            "id": 3872,
+            "field_value": "Standard,Semi Sleeper,Sleeper",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Coach Builder Name",
+            "id": 3873,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Coach Mfg Year / Serial No.",
+            "id": 3874,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Seat / Sleeper Layout (No's)",
+            "id": 3875,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Air Conditioned",
+            "id": 3876,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3868,
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Name Of Refrigerated Body Builders",
+            "id": 3877,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Refrigerated Body Mfg Year / Serial No.",
+            "id": 3878,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Refrigerator Make",
+            "id": 3879,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Refrigerator Type & Capacity",
+            "id": 3880,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Tanker Type",
+            "id": 3881,
+            "field_value": "Oil Tanker,Water Tanker,Petroleum Tanker,Crude Tanker,Chemical Tanker,LPG Tanker,Sewage Tanker,Bulk Bitumen Tanker,Gas Tanker,MS Tanker,SS Tanker,Milk Tanker",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3868,
+            "value_colors": {
+              "Oil Tanker": "#000000",
+              "Water Tanker": "#000000",
+              "Petroleum Tanker": "#000000",
+              "Crude Tanker": "#000000",
+              "Chemical Tanker": "#000000",
+              "LPG Tanker": "#000000",
+              "Sewage Tanker": "#000000",
+              "Bulk Bitumen Tanker": "#000000",
+              "Gas Tanker": "#000000",
+              "MS Tanker": "#000000",
+              "SS Tanker": "#000000",
+              "Milk Tanker": "#000000"
+            }
+          },
+          {
+            "name": "Tanker Manufacturer / Brand",
+            "id": 3882,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Tanker Capacity",
+            "id": 3883,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Tipper Type",
+            "id": 3884,
+            "field_value": "Front End,Undercarriage",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Tipping Unit Make",
+            "id": 3885,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Name Of Body Builder (Closed Body)",
+            "id": 3886,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Closed Body Mfg Year / Serial No.",
+            "id": 3887,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Container Type",
+            "id": 3888,
+            "field_value": "Dry Storage,Flat Rack,Open Top,Tunnel,Open Side Storage,Double Door,Refrigerated ISO,Insulated,Thermal",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Container Manufacturer Name",
+            "id": 3889,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Container Manufactured Year",
+            "id": 3890,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Container Size (Specification)",
+            "id": 3891,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3868,
+            "value_colors": ""
+          },
+          {
+            "name": "Other Details",
+            "id": 3892,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "value_colors": ""
+          },
+          {
+            "name": "Body Condition",
+            "id": 3893,
+            "field_value": "Satisfactory,Good,Average,Poor,Missing,Damaged",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Attachments",
+        "id": 801,
+        "tyres_group": 0,
+        "display_order": 40,
+        "features": [
+          {
+            "name": "Trailer",
+            "id": 3894,
+            "field_value": "No,Yes",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "No": "#ff0000",
+              "Yes": "#000000"
+            }
+          },
+          {
+            "name": "Trailer Type",
+            "id": 3895,
+            "field_value": "Semi Trailer,Truck Trailer",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "child_ids": [
+              3896
+            ],
+            "value_colors": {
+              "Semi Trailer": "#000000",
+              "Truck Trailer": "#000000"
+            }
+          },
+          {
+            "name": "No. of Axle",
+            "id": 3896,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3895,
+            "value_colors": ""
+          },
+          {
+            "name": "Trailer Make / Model",
+            "id": 3897,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "value_colors": ""
+          },
+          {
+            "name": "Others (If Any)",
+            "id": 3898,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "features_group",
+        "name": "Additional Details",
+        "id": 810,
+        "tyres_group": 0,
+        "display_order": 43,
+        "features": [
+          {
+            "name": "Whether Accidental",
+            "id": 3899,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#ff0000",
+              "No": "#000000"
+            }
+          },
+          {
+            "name": "Other Repairs (If Any)",
+            "id": 3900,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Yes": "#ff0000",
+              "No": "#000000"
+            }
+          },
+          {
+            "name": "Level Of Maintenance",
+            "id": 3901,
+            "field_value": "Satisfactory,Good,Average,Poor",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "value_colors": {
+              "Satisfactory": "#000000",
+              "Good": "#000000",
+              "Average": "#ff0000",
+              "Poor": "#ff0000"
+            }
+          }
+        ]
+      }
+    ],
+    "map": {
+      "3851": {
+        "child_ids": [
+          3852
+        ],
+        "children_info": [
+          {
+            "group_type": 4,
+            "gid": 791,
+            "element_type": "dropdown",
+            "fid": 3852,
+            "feature": "Fog Lamps Condition"
+          }
+        ],
+        "action": {
+          "Yes": {
+            "type": "show",
+            "child_ids": [
+              3852
+            ],
+            "child_info": [
+              {
+                "fid": 3852,
+                "gid": 791,
+                "group_type": 4,
+                "element_type": "dropdown"
+              }
+            ]
+          }
+        }
+      },
+      "3857": {
+        "child_ids": [
+          3858
+        ],
+        "children_info": [
+          {
+            "group_type": 4,
+            "gid": 798,
+            "element_type": "dropdown",
+            "fid": 3858,
+            "feature": "Air Conditioner Condition"
+          }
+        ],
+        "action": {
+          "Yes": {
+            "type": "show",
+            "child_ids": [
+              3858
+            ],
+            "child_info": [
+              {
+                "fid": 3858,
+                "gid": 798,
+                "group_type": 4,
+                "element_type": "dropdown"
+              }
+            ]
+          }
+        }
+      },
+      "3869": {
+        "child_ids": [
+          3870,
+          3871
+        ],
+        "children_info": [
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3870,
+            "feature": "Cabin & Chassis"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3871,
+            "feature": "Body Builder Name"
+          }
+        ],
+        "action": {
+          "Cabin & Chassis": {
+            "type": "show",
+            "child_ids": [
+              3870,
+              3871
+            ],
+            "child_info": [
+              {
+                "fid": 3870,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              },
+              {
+                "fid": 3871,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          }
+        }
+      },
+      "3895": {
+        "child_ids": [
+          3896
+        ],
+        "children_info": [
+          {
+            "group_type": 4,
+            "gid": 801,
+            "element_type": "freetext",
+            "fid": 3896,
+            "feature": "No. of Axle"
+          }
+        ],
+        "action": {
+          "Truck Trailer": {
+            "type": "show",
+            "child_ids": [
+              3896
+            ],
+            "child_info": [
+              {
+                "fid": 3896,
+                "gid": 801,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "screen_2": {
+    "name": "Product Details Block (App screen2)",
+    "id": 5,
+    "map": {
+      "3907": {
+        "child_ids": [
+          3839
+        ],
+        "children_info": [
+          {
+            "group_type": 4,
+            "gid": 789,
+            "element_type": "dropdown",
+            "fid": 3839,
+            "feature": "Speed Control System"
+          }
+        ],
+        "action": {
+          "Verified": {
+            "type": "show",
+            "child_ids": [
+              3839
+            ],
+            "child_info": [
+              {
+                "fid": 3839,
+                "gid": 789,
+                "group_type": 4,
+                "element_type": "dropdown"
+              }
+            ]
+          }
+        }
+      },
+      "3868": {
+        "child_ids": [
+          3869,
+          3872,
+          3873,
+          3874,
+          3875,
+          3876,
+          3877,
+          3878,
+          3879,
+          3880,
+          3881,
+          3882,
+          3883,
+          3884,
+          3885,
+          3886,
+          3887,
+          3888,
+          3889,
+          3890,
+          3891
+        ],
+        "children_info": [
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3869,
+            "feature": "Body Type Of Haulage"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3872,
+            "feature": "Coach Type Of Passenger (Bus)"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3873,
+            "feature": "Coach Builder Name"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3874,
+            "feature": "Coach Mfg Year / Serial No."
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3875,
+            "feature": "Seat / Sleeper Layout (No's)"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3876,
+            "feature": "Air Conditioned"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3877,
+            "feature": "Name Of Refrigerated Body Builders"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3878,
+            "feature": "Refrigerated Body Mfg Year / Serial No."
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3879,
+            "feature": "Refrigerator Make"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3880,
+            "feature": "Refrigerator Type & Capacity"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3881,
+            "feature": "Tanker Type"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3882,
+            "feature": "Tanker Manufacturer / Brand"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3883,
+            "feature": "Tanker Capacity"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3884,
+            "feature": "Tipper Type"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3885,
+            "feature": "Tipping Unit Make"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3886,
+            "feature": "Name Of Body Builder (Closed Body)"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3887,
+            "feature": "Closed Body Mfg Year / Serial No."
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "dropdown",
+            "fid": 3888,
+            "feature": "Container Type"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3889,
+            "feature": "Container Manufacturer Name"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3890,
+            "feature": "Container Manufactured Year"
+          },
+          {
+            "group_type": 4,
+            "gid": 800,
+            "element_type": "freetext",
+            "fid": 3891,
+            "feature": "Container Size (Specification)"
+          }
+        ],
+        "action": {
+          "Haulage": {
+            "type": "show",
+            "child_ids": [
+              3869
+            ],
+            "child_info": [
+              {
+                "fid": 3869,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              }
+            ]
+          },
+          "Passenger (Bus)": {
+            "type": "show",
+            "child_ids": [
+              3872,
+              3873,
+              3874,
+              3875,
+              3876
+            ],
+            "child_info": [
+              {
+                "fid": 3872,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              },
+              {
+                "fid": 3873,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3874,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3875,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3876,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              }
+            ]
+          },
+          "Refrigerated": {
+            "type": "show",
+            "child_ids": [
+              3877,
+              3878,
+              3879,
+              3880
+            ],
+            "child_info": [
+              {
+                "fid": 3877,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3878,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3879,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3880,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          },
+          "Tanker": {
+            "type": "show",
+            "child_ids": [
+              3881,
+              3882,
+              3883
+            ],
+            "child_info": [
+              {
+                "fid": 3881,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              },
+              {
+                "fid": 3882,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3883,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          },
+          "Tipper": {
+            "type": "show",
+            "child_ids": [
+              3884,
+              3885
+            ],
+            "child_info": [
+              {
+                "fid": 3884,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              },
+              {
+                "fid": 3885,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          },
+          "Closed Body": {
+            "type": "show",
+            "child_ids": [
+              3886,
+              3887
+            ],
+            "child_info": [
+              {
+                "fid": 3886,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3887,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          },
+          "Container": {
+            "type": "show",
+            "child_ids": [
+              3888,
+              3889,
+              3890,
+              3891
+            ],
+            "child_info": [
+              {
+                "fid": 3888,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "dropdown"
+              },
+              {
+                "fid": 3889,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3890,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              },
+              {
+                "fid": 3891,
+                "gid": 800,
+                "group_type": 4,
+                "element_type": "freetext"
+              }
+            ]
+          }
+        }
+      },
+      "3922": {
+        "child_ids": [
+          3925
+        ],
+        "children_info": [
+          {
+            "group_type": 5,
+            "gid": 804,
+            "element_type": "freetext",
+            "fid": 3925,
+            "feature": "Hypothecation With"
+          }
+        ],
+        "action": {
+          "Yes": {
+            "type": "show",
+            "child_ids": [
+              3925
+            ],
+            "child_info": [
+              {
+                "fid": 3925,
+                "gid": 804,
+                "group_type": 5,
+                "element_type": "freetext"
+              }
+            ]
+          }
+        }
+      },
+      "3928": {
+        "child_ids": [
+          3904
+        ],
+        "children_info": [
+          {
+            "group_type": 5,
+            "gid": 802,
+            "element_type": "dropdown",
+            "fid": 3904,
+            "feature": "Insurance Type"
+          }
+        ],
+        "action": {
+          "Yes": {
+            "type": "show",
+            "child_ids": [
+              3904
+            ],
+            "child_info": [
+              {
+                "fid": 3904,
+                "gid": 802,
+                "group_type": 5,
+                "element_type": "dropdown"
+              }
+            ]
+          }
+        }
+      },
+      "3904": {
+        "child_ids": [
+          3905,
+          3906
+        ],
+        "children_info": [
+          {
+            "group_type": 5,
+            "gid": 802,
+            "element_type": "numeric",
+            "fid": 3905,
+            "feature": "IDV value (In Rupees)"
+          },
+          {
+            "group_type": 5,
+            "gid": 802,
+            "element_type": "date",
+            "fid": 3906,
+            "feature": "Insurance Expiry Date"
+          }
+        ],
+        "action": {
+          "Comprehensive": {
+            "type": "show",
+            "child_ids": [
+              3905,
+              3906
+            ],
+            "child_info": [
+              {
+                "fid": 3905,
+                "gid": 802,
+                "group_type": 5,
+                "element_type": "numeric"
+              },
+              {
+                "fid": 3906,
+                "gid": 802,
+                "group_type": 5,
+                "element_type": "date"
+              }
+            ]
+          },
+          "Third Party": {
+            "type": "show",
+            "child_ids": [
+              3906
+            ],
+            "child_info": [
+              {
+                "fid": 3906,
+                "gid": 802,
+                "group_type": 5,
+                "element_type": "date"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "values": [
+      {
+        "block_type": "product_details_group",
+        "name": "Registration Details As Per RC",
+        "id": 804,
+        "tyres_group": 0,
+        "display_order": 70,
+        "features": [
+          {
+            "name": "Documents",
+            "id": 3907,
+            "field_value": "Verified,Not Verified",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "child_ids": [
+              3839
+            ],
+            "alias_id": 7,
+            "alias_name": "Documents",
+            "value_colors": {
+              "Verified": "#000000",
+              "Not Verified": "#ff0000"
+            }
+          },
+          {
+            "name": "Registration No.",
+            "id": 3912,
+            "field_value": "",
+            "element_type": "alphanumeric",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "alphanumeric",
+              "min_length": 6,
+              "max_length": 25,
+              "transform": "upper_case"
+            },
+            "value_colors": ""
+          },
+          {
+            "name": "Reg. Owner Name",
+            "id": 3908,
+            "field_value": "",
+            "element_type": "alphabets",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "alphabets",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "alias_id": 8,
+            "alias_name": "Reg. Owner name",
+            "value_colors": ""
+          },
+          {
+            "name": "Engine No.",
+            "id": 3914,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 6,
+              "max_length": 40,
+              "transform": "upper_case"
+            },
+            "value_colors": ""
+          },
+          {
+            "name": "VIN / Chassis No.",
+            "id": 3916,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 6,
+              "max_length": 40,
+              "transform": "upper_case"
+            },
+            "value_colors": ""
+          },
+          {
+            "name": "Manufacturing Year",
+            "id": 3917,
+            "field_value": "",
+            "element_type": "numeric",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "numeric",
+              "min_value": 0,
+              "max_value": 2099
+            },
+            "alias_id": 4,
+            "alias_name": "Year Of Manufacture",
+            "value_colors": ""
+          },
+          {
+            "name": "Asset Type",
+            "id": 3868,
+            "field_value": "Haulage,Passenger (Bus),Refrigerated,Tanker,Tipper,Closed Body,Container,Flat Bed,Gagged Body,LPG Cyl Carrier,Insulated Body,Ambulance,Others",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "child_ids": [
+              3869,
+              3872,
+              3873,
+              3874,
+              3875,
+              3876,
+              3877,
+              3878,
+              3879,
+              3880,
+              3881,
+              3882,
+              3883,
+              3884,
+              3885,
+              3886,
+              3887,
+              3888,
+              3889,
+              3890,
+              3891
+            ],
+            "alias_id": 12,
+            "alias_name": "Body Type",
+            "value_colors": {
+              "Haulage": "#000000",
+              "Passenger (Bus)": "#000000",
+              "Refrigerated": "#000000",
+              "Tanker": "#000000",
+              "Tipper": "#000000",
+              "Closed Body": "#000000",
+              "Container": "#000000",
+              "Flat Bed": "#000000",
+              "Gagged Body": "#000000",
+              "LPG Cyl Carrier": "#000000",
+              "Insulated Body": "#000000",
+              "Ambulance": "#000000",
+              "Others": "#000000"
+            }
+          },
+          {
+            "name": "Date of Registration",
+            "id": 3909,
+            "field_value": "",
+            "element_type": "date",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "date",
+              "min_date": "1929/01/01",
+              "max_date": "2052/01/01"
+            },
+            "alias_id": 9,
+            "alias_name": "Date of Registration",
+            "value_colors": ""
+          },
+          {
+            "name": "Hypothecation",
+            "id": 3922,
+            "field_value": "Yes,No",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "dropdown"
+            },
+            "child_ids": [
+              3925
+            ],
+            "value_colors": {
+              "Yes": "#000000",
+              "No": "#ff0000"
+            }
+          },
+          {
+            "name": "Hypothecation With",
+            "id": 3925,
+            "field_value": "",
+            "element_type": "freetext",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "freetext",
+              "min_length": 1,
+              "max_length": 250,
+              "transform": "any"
+            },
+            "parent_id": 3922,
+            "alias_id": 16,
+            "alias_name": "Hypothecation Bank (if any)",
+            "value_colors": ""
+          },
+          {
+            "name": "Owner Serial No.",
+            "id": 3921,
+            "field_value": "1,2,3,4,5,6 & Above",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "dropdown"
+            },
+            "alias_id": 15,
+            "alias_name": "Owner Serial No.",
+            "value_colors": {
+              "1": "#000000",
+              "2": "#000000",
+              "3": "#000000",
+              "4": "#000000",
+              "5": "#000000",
+              "6 & Above": "#000000"
+            }
+          }
+        ]
+      },
+      {
+        "block_type": "product_details_group",
+        "name": "Document Details",
+        "id": 802,
+        "tyres_group": 0,
+        "display_order": 88,
+        "features": [
+          {
+            "name": "Insurance Type",
+            "id": 3904,
+            "field_value": "Comprehensive,Third Party",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "parent_id": 3928,
+            "child_ids": [
+              3905,
+              3906
+            ],
+            "value_colors": {
+              "Comprehensive": "#000000",
+              "Third Party": "#000000"
+            }
+          },
+          {
+            "name": "Insurance Expiry Date",
+            "id": 3906,
+            "field_value": "",
+            "element_type": "date",
+            "validation_rules": {
+              "mandatory": 0,
+              "element_type": "date",
+              "min_date": "1985/01/01",
+              "max_date": "2067/01/01"
+            },
+            "parent_id": 3904,
+            "value_colors": ""
+          },
+          {
+            "name": "IDV value (In Rupees)",
+            "id": 3905,
+            "field_value": "",
+            "element_type": "numeric",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "numeric",
+              "min_value": 1,
+              "max_value": 1000000000
+            },
+            "parent_id": 3904,
+            "value_colors": ""
+          }
+        ]
+      },
+      {
+        "block_type": "product_details_group",
+        "name": "Other Details Of Vehicle",
+        "id": 812,
+        "tyres_group": 0,
+        "display_order": 92,
+        "features": [
+          {
+            "name": "Fuel Type",
+            "id": 3919,
+            "field_value": "Petrol,Diesel,CNG,LPG,Petrol CNG,Petrol LPG,Petrol Hybrid,Diesel Hybrid,Electric",
+            "element_type": "dropdown",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "dropdown"
+            },
+            "alias_id": 13,
+            "alias_name": "Fuel Type",
+            "value_colors": ""
+          },
+          {
+            "name": "Meter reading in KM (As on date of Valuation)",
+            "id": 3918,
+            "field_value": "",
+            "element_type": "numeric",
+            "validation_rules": {
+              "mandatory": 1,
+              "element_type": "numeric",
+              "min_value": 0,
+              "max_value": 10000000
+            },
+            "alias_id": 3,
+            "alias_name": "Meter Reading",
+            "value_colors": ""
+          }
+        ]
+      }
+    ]
+  }
+}

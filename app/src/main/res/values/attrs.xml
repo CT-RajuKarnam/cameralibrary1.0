@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showCircle" format="boolean" />
+        <attr name="showHandles">
+            <enum name="changing" value="0" />
+            <enum name="always" value="1" />
+            <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="dividerPaddingpager" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="pagertabBackground" format="reference" />
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="textAllCapspager" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_cornerRadius" format="dimension" />
+        <attr name="sl_shadowRadius" format="dimension" />
+        <attr name="sl_shadowColor" format="color" />
+        <attr name="sl_dx" format="dimension" />
+        <attr name="sl_dy" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+
+        <attr name="progress_text_offset" format="dimension" />
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ColoredRatingBar">
+        <attr name="indicator" format="boolean" />
+        <attr name="rating" format="float" />
+        <attr name="type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="small" value="1" />
+        </attr>
+        <attr name="coloredRatingBarStyle" format="reference" />
+        <!-- Indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleIndicator" format="reference" />
+        <!-- Small RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmall" format="reference" />
+        <!-- Small indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmallIndicator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollingPagerIndicator">
+        <attr name="spi_dotColor" format="color" />
+        <attr name="spi_dotSelectedColor" format="color" />
+        <attr name="spi_dotSize" format="dimension" />
+        <attr name="spi_dotSelectedSize" format="dimension" />
+        <attr name="spi_dotSpacing" format="dimension" />
+        <attr name="spi_visibleDotCount" format="integer" />
+        <attr name="spi_visibleDotThreshold" format="integer" />
+        <attr name="spi_looped" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="DiscreteScrollView">
+        <attr name="dsv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

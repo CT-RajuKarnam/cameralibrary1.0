@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/footer_camera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="#6600396F"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:weightSum="3">
+
+    <com.cartrade.cameralib.camerafiles.utils.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="#585858"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true">
+
+        <TextView
+            android:id="@+id/retake_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/camera_retake"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_horizontal|center"
+            android:padding="5dp"
+            android:text="RETAKE"
+            android:textColor="@color/white" />
+    </com.cartrade.cameralib.camerafiles.utils.MaterialRippleLayout>
+
+    <com.cartrade.cameralib.camerafiles.utils.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.95"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="#585858"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true">
+
+        <TextView
+            android:id="@+id/save_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/camera_save_exit"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_horizontal|center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="SAVE &amp; CLOSE"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </com.cartrade.cameralib.camerafiles.utils.MaterialRippleLayout>
+
+    <com.cartrade.cameralib.camerafiles.utils.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.95"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="#585858"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true">
+
+        <TextView
+            android:id="@+id/next_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/camera_save_next"
+            android:fontFamily="@font/roboto_regular"
+            android:drawablePadding="2dp"
+            android:gravity="center_horizontal|center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="SAVE &amp; NEXT"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </com.cartrade.cameralib.camerafiles.utils.MaterialRippleLayout>
+</LinearLayout>
+
+

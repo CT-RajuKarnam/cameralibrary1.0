@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/lay_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <com.cartrade.cameralib.camerafiles.camera2.AdjustableLayout
+                android:id="@+id/preview_surface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:id="@+id/linlaHeaderProgress"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal" />
+            </LinearLayout>
+
+            <com.cartrade.cameralib.camerafiles.camera2.DrawingView
+                android:id="@+id/drawing_surface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <com.cartrade.cameralib.camerafiles.camera2.GuideBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <ImageView
+                    android:id="@+id/preview_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/header_rl_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="#5EAF0202">
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_alignParentTop="true"
+                        android:max="60"
+                        android:progressDrawable="@drawable/progress" />
+
+                    <TextView
+                        android:id="@+id/tv_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/progressbar"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="top|center"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="5sp"
+                        android:text="00:00:00"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tv_cam_img_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/progressbar"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="5dp"
+                        android:text="Select: Image 1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/skip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/progressbar"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="top|center"
+                        android:layout_marginRight="70dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="5sp"
+                        android:text="Skip"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/tv_timer"
+                        android:background="#fff"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/camera_lay_footer_new" />
+
+            <LinearLayout
+                android:id="@+id/ll_cam_btn_capture"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#90000000"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/button_splash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:src="@mipmap/flash_auto" />
+
+                <ImageView
+                    android:id="@+id/button_capture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:src="@drawable/shutter_button" />
+
+                <TextView
+                    android:id="@+id/tv_zoom_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="-10dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="1.0X"
+                    android:textColor="@color/white" />
+
+                <com.cartrade.cameralib.camerafiles.camera2.VerticalSeekBar
+                    android:id="@+id/verticalseekbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/switchCamera"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:src="@drawable/camera_switch"
+                    android:tint="@color/white"
+                    android:visibility="visible"
+                    tools:ignore="UseAppTint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layTimer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/overlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:text="Entering photo mode…Now take Car images."
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/timeRemains"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/circle"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#fff"
+                    android:textSize="40sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgHelp"
+                android:layout_width="600dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/front_shot"
+                android:visibility="gone" />.
+
+            <LinearLayout
+                android:id="@+id/imgPreviewll"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgPreview"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:visibility="visible" />
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/imgPreviewll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_cam_img_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="5dp"
+                    android:text="Select: Image 1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imgPreview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv_cam_img_title1"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="2dp"
+                    android:scaleType="fitXY"
+                    android:visibility="visible" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:id="@+id/take_photo"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Take Photo"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

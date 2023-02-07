@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Capture Video"
+        android:textColor="@color/primary"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/txtimages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Capture Images"
+        android:textColor="@color/primary"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/signatureview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtsignature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Capture Signature"
+        android:textColor="@color/primary"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

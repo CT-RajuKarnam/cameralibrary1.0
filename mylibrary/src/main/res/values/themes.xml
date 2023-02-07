@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#E51F20</item>
+        <item name="colorAccent">@color/primary</item>
+        <!--<item name="spinnerMode">dialog</item>-->
+        <item name="colorControlNormal">@color/primary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:typeface">serif</item>
+        <!-- <item name="android:buttonStyle">@style/ButtonTheme</item>-->
+    </style>
+
+
+    <style name="MyCustomTabLayout" parent="Theme.AppCompat">
+        <item name="tabIndicatorColor">@color/txt_red</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabPaddingStart">10dp</item>
+        <item name="tabPaddingEnd">10dp</item>
+        <item name="tabBackground">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/txt_blue</item>
+    </style>
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/menuline</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="ThemeDialogCustom">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@color/transparent_color</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+</resources>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:divider="?android:dividerHorizontal"
+    android:horizontalSpacing="10dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:verticalSpacing="10dp">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:padding="5sp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="start"
+            android:text="Video"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_close_yt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="Share"
+            android:padding="5dp"
+            android:src="@mipmap/close_icon_black"
+            android:tint="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/video_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:controller_layout_id="@layout/custom_play"
+            app:fastforward_increment="5000"
+            app:hide_on_touch="true"
+            app:show_timeout="2000"
+            app:use_controller="true" />
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/retake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Retake"
+                android:textColor="@color/primary"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
