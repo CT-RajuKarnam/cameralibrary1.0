@@ -1,6 +1,6 @@
 plugins {
-    id 'com.android.library'
-    id 'maven-publish'
+    id "com.android.library"
+    id "maven-publish"
 }
 
 android {
@@ -31,12 +31,8 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.6.0'
     implementation 'com.google.android.material:material:1.8.0'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.google.android.gms:play-services-location:18.0.0'
 }
 
@@ -47,9 +43,7 @@ afterEvaluate {
                 groupId = 'com.github.CT-RajuKarnam'
                 artifactId = 'cameralibrary1.0'
                 version = '1.1.2'
-                afterEvaluate {
-                    from components.release
-                }
+
             }
         }
     }
