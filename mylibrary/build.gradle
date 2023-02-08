@@ -35,15 +35,15 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
-
-
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.github.CT-RajuKarnam'
-            artifactId = 'cameralibrary1.0'
-            version = '2.7'
-
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'com.github.CT-RajuKarnam'
+                artifactId = 'cameralibrary1.0'
+                version = '2.8'
+                artifact(bundleReleaseAar)
+            }
         }
     }
 }
