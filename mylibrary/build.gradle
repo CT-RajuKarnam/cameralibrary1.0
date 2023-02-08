@@ -45,9 +45,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 groupId = 'com.github.CT-RajuKarnam'
-                artifactId = 'cameralibrary1.0'
+                artifactId = 'cameralibrary1.1'
                 version = '1.0.0'
-
                 afterEvaluate {
                     from components.release
                 }
